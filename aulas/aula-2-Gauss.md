@@ -29,7 +29,29 @@ style: |
 
 - Medida em **mrad** (miliradianos)  
   - 1 mrad = 1 m de abertura a cada 1000 m de distância  
-- Datasheet indica **(1/e)** → largura onde intensidade cai para ~37%  
+- Datasheet indica **(1/e)** → largura onde intensidade cai para ~37%
+
+---
+
+# 🔦 Feixe Gaussiano (Laser)
+
+A intensidade transversal de um feixe laser ideal segue uma distribuição **Gaussiana**:
+
+$$
+I(r) = I_0 \, e^{-\frac{2r^2}{w^2}}
+$$
+
+---
+
+### 📌 Onde:
+- $I(r)$ = intensidade no ponto radial $r$  
+- $I_0$ = intensidade máxima no centro do feixe  
+- $r$ = distância ao eixo central  
+- $w$ = largura do feixe (raio onde a intensidade cai para $1/e^2$ do máximo)  
+
+✨ O laser não é um "raio cilíndrico perfeito", mas um **feixe Gaussiano**, que se expande de forma previsível ao longo da propagação.
+
+
 ---
 
 ### Fórmula prática:
@@ -46,8 +68,8 @@ $$
 D \approx D_0 + R\theta
 $$
 
-
 ---
+
 
 ## 📊 Exemplo — São Paulo, 2017
 
@@ -167,5 +189,8 @@ pipeline_json = {
 - AXELSSON, P. (2000) — *DEM generation from laser scanner data*  
 - SHAN, J.; TOTH, C. (2008) — *Topographic Laser Ranging and Scanning*
 - RIBEIRO, Silvio César Lima. O uso do Lidar aerotransportado para obtenção de métricas de ocupação em assentamentos precários. Doutorado em Engenharia de Transportes—São Paulo: Universidade de São Paulo, 23 out. 2019.
+
+---
+Dedico a aula de hoje a ***Carl Friedrich Gauss***, esse personagem quase mítico da matemática, além de físico, astrônomo e geodesta. Filho de um pedreiro, prodígio desde criança, Gauss foi quem nos ensinou que até os erros obedecem a uma lei — a famosa curva em forma de sino que leva seu nome. Mas não só: o feixe laser que usamos em levantamentos LiDAR tem perfil gaussiano; os erros altimétricos dos pontos que compõem nosso Modelo Digital de Superfície se distribuem segundo Gauss; e as normas cartográficas que validam a precisão dos dos produtos advindos do LiDAR também se baseiam em Gauss. É como se ele estivesse por trás, silencioso, em cada etapa do processo. Falar de laser e de MDS sem falar de Gauss seria quase uma injustiça histórica: ele é o fio invisível que costura a matemática, a física e a cartografia num só tecido.
 
 
