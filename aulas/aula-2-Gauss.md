@@ -192,5 +192,7 @@ pipeline_json = {
 
 ---
 Dedico a aula de hoje a ***Carl Friedrich Gauss***, esse personagem quase mítico da matemática, além de físico, astrônomo e geodesta. Filho de um pedreiro, prodígio desde criança, Gauss foi quem nos ensinou que até os erros obedecem a uma lei — a famosa curva em forma de sino que leva seu nome. Mas não só: o feixe laser que usamos em levantamentos LiDAR tem perfil gaussiano; os erros altimétricos dos pontos que compõem nosso Modelo Digital de Superfície se distribuem segundo Gauss; e as normas cartográficas que validam a precisão dos dos produtos advindos do LiDAR também se baseiam em Gauss. É como se ele estivesse por trás, silencioso, em cada etapa do processo. Falar de laser e de MDS sem falar de Gauss seria quase uma injustiça histórica: ele é o fio invisível que costura a matemática, a física e a cartografia num só tecido.
+---
+
 
 
