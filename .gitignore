@@ -15,6 +15,7 @@ dist/
 *.egg
 
 downloads/
+práticas/resultados/*.*
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -59,6 +60,7 @@ coverage.xml
 # Lidar data
 *.las
 *.laz
+*.glb
 
 # Others
 *.sqlite3
